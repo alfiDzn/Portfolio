@@ -1,0 +1,987 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+@import url('https://fonts.cdnfonts.com/css/bdo-grotesk');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'BDO Grotesk', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 79%;
+    background-color: #1C4645;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 50px;
+    height: 75px;
+    backdrop-filter: blur(6px);
+}
+
+.headertittle {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.headertittle h1 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 10px 15px 10px 15px;
+    font-size: 29px;
+    border-radius: 50px;
+}
+
+.-logo {
+    padding: 0;
+}
+
+.logo- {
+    background-color: #FAAD1B;
+    padding: 12px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headertittle h1 span {
+    color: #FAAD1B;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-weight: 300;
+}
+
+.navlist a {
+    color: white;
+}
+
+.navlist a.active {
+    color: #FAAD1B; /* Warna teks untuk link aktif */
+    font-weight: 500;
+    font-style: italic;
+  }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contactme {
+    background-color: #ffffff;
+    color: #1C4645;
+    padding: 15px 22px 15px 22px;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: .5s ease;
+}
+
+.contactme:hover {
+    cursor: pointer;
+    background-color: #ffbf48;
+}
+
+/* section1 home */
+
+.sec1 {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    background-image: radial-gradient(circle closest-corner at left, #ffe6b7, #ffffff);
+}
+
+.anyong {
+    font-family: 'Noto Sans KR';
+    font-size: 35px;
+    color: #1C4645;
+    background-color: #FAAD1B;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+    width: 200px;
+    z-index: 0;
+}
+
+.sec1name {
+    font-size: 50px;
+    color: #262626;
+    line-height: 50px;
+}
+
+span {
+    font-style: italic;
+    color: #FAAD1B;
+    font-weight: 400;
+}
+
+.subname {
+    color: #686868;
+    font-weight: 500;
+}
+
+.sec1-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    width: 100%;
+}
+
+.hire-porto {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.viewporto {
+    background-color: #1C4645;
+    padding: 6px 6px 6px 31px;
+    border-radius: 50px;
+    font-weight: 450;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.viewporto:hover {
+    background-color: #13302f;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: #ffffff;
+}
+
+.arrowicon {
+    background-color: #FAAD1B;
+    padding: 20px;
+    border-radius: 50px;
+    transition: .5s ease;
+}
+
+.arrowicon:hover {
+    cursor: pointer;
+    background-color: #ffbf48;
+}
+
+.hireme {
+    border: 2px solid #1C4645;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.hireme a {
+    color: #1C4645;
+}
+
+.hireme:hover {
+    cursor: pointer;
+    background-color: #e6f0e7;
+}
+
+.imghome {
+    height: 700px;
+}
+
+/* section2 */
+
+.sec2 {
+    height: 100vh;
+    background-color: #1C4645;
+    display: flex;
+    align-items: center;
+}
+
+.sec2container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.-about {
+    font-size: 30px;
+    color: white;
+}
+
+.whois {
+    color: white;
+    font-size: 40px;
+}
+
+.lala {
+    display: flex;
+    gap: 30px;
+}
+
+.lala h3 {
+    color: white;
+    font-weight: 200;
+}
+
+.cv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #1C4645;
+    font-weight: 500;
+    background-color: #FAAD1B;
+    justify-content: center;
+    width: 188px;
+    border-radius: 50px;
+    padding-left: 19px;
+    padding-right: 0px;
+    padding-top: 2px;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.cv:hover {
+    cursor: pointer;
+    background-color: #ffbf48;
+}
+
+.cv i {
+    color: #FAAD1B;
+    background-color: #1C4645;
+    padding: 16px 18px 16px 18px;
+    border-radius: 50px;
+}
+
+
+/* section3 */
+
+.sec3 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.mytools {
+    font-size: 30px;
+}
+
+.toolscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.toolscontainer h1 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.tools {
+    display: flex;
+    gap: 50px;
+}
+
+.tools p {
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.icons {
+    background-color: #f3f3f3;
+    padding: 30px;
+    border-radius: 50px;
+    border: 1px solid #d8d8d8;
+    transition: .5s ease;
+}
+
+.icons:hover {
+    background-color: #bdbdbd;
+}
+
+/* section4 */
+
+.sec4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    background-color: #F5F5F5;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.myport {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.mylatest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0
+}
+
+.mylatest h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.viewall {
+    display: flex;
+    background-color: #1C4645;
+    align-items: center;
+    gap: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    padding-left: 20px;
+    color: white;
+    border-radius: 60px;
+    transition: .5s ease;
+}
+
+.viewall:hover {
+    cursor: pointer;
+    /* background-color: #13302f; */
+    background-color: #13302f;
+}
+
+.viewall i {
+    background-color: #FAAD1B;
+    color: #1C4645;
+    padding: 15px 17px 15px 17px;
+    border-radius: 55px;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+
+.card-content:hover {
+    background-color: #d6d6d6;
+}
+
+.card-content i {
+    background-color: #1C4645;
+    padding: 10px;
+    border-radius: 50px;
+    width: auto;
+}
+
+.card-content i:hover {
+    cursor: pointer;
+    background-color: #13302f;
+}
+
+.type {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.type p {
+    background-color: #FAAD1B;
+    padding: 7px 15px 7px 15px;
+    color: #1C4645;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.h1-card {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* section 5 */
+
+.sec5 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-image: radial-gradient(circle closest-corner at bottom, #fff7e7, #ffffff);
+}
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.titleacademic h1 {
+    font-size: 50px;
+}
+
+.titleacademic p {
+    font-size: 30px;
+}
+
+.work {
+    background-color: #1C4645;
+    width: 480px;
+    height: auto;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 45px;
+    border: 1px solid rgb(212, 212, 212);
+    color: white;
+}
+
+.title-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-card h1 {
+    font-size: 32px;
+}
+
+hr {
+    border: none;
+    background-color: #d3d3d3;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.title-card i {
+    background-color: #FAAD1B;
+    color: #1C4645;
+    padding: 30px 20px 30px 20px;
+    border-radius: 50px;
+}
+
+.date-academic {
+    margin-top: 20px;
+    border-left: 2px solid #FAAD1B;
+    padding-left: 20px;
+}
+
+.date-academic p {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    color: #cfcfcf;
+    font-style: italic;
+}
+
+.date-academic h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+/* section 6 */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: flex-start;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.getin {
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.contact-form h2 {
+    padding-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+/* .contact-right {
+    background-color: #1C4645;
+    padding: 20px;
+    border-radius: 20px;
+} */
+
+.contact-input {
+    border: none;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 10px;
+    appearance: none;
+    outline: none;
+    resize: none;
+    font-family: 'BDO Grotesk', sans-serif;
+}
+
+.submit {
+    border: none;
+    border-radius: 10px;
+    background-color: none;
+    font-family: 'BDO Grotesk', sans-serif;
+    background-color: #1C4645;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    color: white;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #13302f;
+}
+
+.logo-contact {
+    background-color: #FAAD1B;
+    border-radius: 50px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.-logo- {
+    padding: 0;
+    margin: 0;
+}
+.contact-title {
+    display: flex;
+    align-items: center;
+}
+
+.contact-title h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 10px 15px 10px 15px;
+    font-size: 29px;
+    border-radius: 50px;
+}
+
+.hr-contact {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.socmed {
+    display: flex;
+    gap: 20px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #1C4645;
+    position: relative;
+    height: auto;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+}
+
+/* element */
+
+.margin {
+    background-color: #FAAD1B;
+    color: #1C4645;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    width: auto;
+    align-items: center;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+/* phone */
+
+
+@media (max-width: 600px) {
+    .navlist {
+        display: none;
+        width: auto;
+    }
+
+    header {
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .contactme {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+        width: auto;
+        align-items: center;
+    }
+
+    .sec1 {
+        width: 100%;
+        top: 150px;
+        justify-content: center;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .viewporto {
+        padding-right: 6px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 75px;
+    }
+
+    .hireme {
+        height: 75px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-align: center;
+    }
+
+    .hire-porto {
+        font-size: 15px;
+    }
+
+    .imghome {
+        width: 290px;
+        height: auto;
+    }
+
+    .sec2 {
+        height: auto;
+        width: auto;
+        justify-content: center;
+        padding-bottom: 70px;
+        padding-top: 140px;
+        
+    }
+
+    .sec2container {
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .acreative {
+        font-size: 12px;
+    }
+
+    .-about {
+        font-size: 20px;
+        
+    }
+
+    .numabout {
+        font-size: 13px;
+    }
+
+    .lala h3 {
+        font-size: 12px;
+    }
+
+    .whois {
+        font-size: 25px;
+    }
+
+    .rightcontainer-sec2 {
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    .cv {
+        width: auto;
+        justify-content: space-between;
+        padding-right: 10px;
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .sec3 {
+        width: auto;
+        height: auto;
+        padding-bottom: 70px;
+        padding-top: 40px;
+    }
+
+    .toolscontainer h1 {
+        font-size: 25px;
+    }
+
+    .icon-tools {
+        height: 50px;
+    }
+
+    .toolscontainer p {
+        font-size: 20px;
+    }
+    
+    .tools {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+    }
+
+    .icons {
+        width: auto;
+        padding: 18px;
+        border-radius: 32px;
+    }
+
+    .sec4 {
+        width: auto;
+        height: auto;
+        justify-content: center;
+        padding-bottom: 70px;
+        padding-top: 60px;
+    }
+
+    .mylatest {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .mylatest h1 {
+        font-size: 25px;
+    }
+
+    .myport {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .sec5 {
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+        padding-top: 40px;
+    }
+
+    .titleacademic {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .titleacademic p {
+        font-size: 20px;
+    }
+
+    .titleacademic h1 {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .work {
+        width: 250px;
+        height: auto;
+    }
+
+    .work h2 {
+        font-size: 20px;
+    }
+
+    .title-card h1 {
+        font-size: 20px;
+    }
+
+    .waveline {
+        display: none;
+    }
+
+    .margin {
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .sec6 {
+        width: auto;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .contact-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .getin {
+        margin-left: 0;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .contact-left {
+        justify-content: center;
+    }
+
+    .contact-title {
+        justify-content: center;
+    }
+
+    .socmed {
+        justify-content: center;
+    }
+
+    .contact-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .footer {
+        width: auto;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .left-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .anyong {
+        text-align: center;
+        justify-content: flex-start;
+        width: 160px;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .sec1name {
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+
+}
